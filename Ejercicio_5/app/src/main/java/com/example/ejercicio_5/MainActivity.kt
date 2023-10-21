@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.ejercicio_5
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,10 +15,6 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener{
             Log.d("Text","botó apretat")
-            Toast.makeText(this, "botó apretat", Toast.LENGTH_LONG).show()
         }
     }
-
-
-
 }
